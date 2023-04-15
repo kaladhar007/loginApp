@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, lightBlue, black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+}
+button {
+  background-color: white;
+  color: black;
+  height: 35px;
+  width: 140px;
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+}
